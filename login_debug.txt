@@ -1,0 +1,162 @@
+Attempt: malaika@gmail.com
+Invalid credentials
+Attempt: malaika@gmail.com
+Invalid credentials
+Attempt: malaika2@gmail.com
+User found: Array
+(
+    [id] => 14
+    [email] => 
+    [password] => 
+    [name2] => malaika2
+    [email2] => malaika2@gmail.com
+    [pass2] => 123
+    [confirm pass] => 
+    [role] => patient
+)
+
+Session: Array
+(
+    [email] => malaika2@gmail.com
+    [role] => patient
+    [name] => malaika2
+    [loggedin] => 1
+)
+
+Redirecting to patient
+Attempt: m@gmail.com
+User found: Array
+(
+    [id] => 9
+    [email] => 
+    [password] => 
+    [name2] => MNO-SPRINT1
+    [email2] => m@gmail.com
+    [pass2] => 123
+    [confirm pass] => 
+    [role] => patient
+)
+
+Session: Array
+(
+    [email] => m@gmail.com
+    [role] => patient
+    [name] => MNO-SPRINT1
+    [loggedin] => 1
+)
+
+Redirecting to patient
+Attempt: malaika2@gmail.com
+User found: Array
+(
+    [id] => 14
+    [email] => 
+    [password] => 
+    [name2] => malaika2
+    [email2] => malaika2@gmail.com
+    [pass2] => 123
+    [confirm pass] => 
+    [role] => patient
+)
+
+Session: Array
+(
+    [email] => malaika2@gmail.com
+    [role] => patient
+    [name] => malaika2
+    [loggedin] => 1
+)
+
+Redirecting to patient
+Attempt: malaika2@gmail.com
+Invalid credentials
+Attempt: malaika2@gmail.com
+Invalid credentials
+Attempt: malaika4@gmail.com
+User found: Array
+(
+    [id] => 15
+    [email] => 
+    [password] => 
+    [name2] => Malaika4
+    [email2] => malaika4@gmail.com
+    [pass2] => 456
+    [confirm pass] => 
+    [role] => patient
+)
+
+Session: Array
+(
+    [email] => malaika4@gmail.com
+    [role] => patient
+    [name] => Malaika4
+    [loggedin] => 1
+)
+
+Redirecting to patient
+Attempt: admin2@gmail.com
+User found: Array
+(
+    [id] => 13
+    [email] => 
+    [password] => 
+    [name2] => admin2
+    [email2] => admin2@gmail.com
+    [pass2] => 123
+    [confirm pass] => 
+    [role] => patient
+)
+
+Session: Array
+(
+    [email] => admin2@gmail.com
+    [role] => patient
+    [name] => admin2
+    [loggedin] => 1
+)
+
+Redirecting to patient
+Attempt: admin2@gmail.com
+User found: Array
+(
+    [id] => 13
+    [email] => 
+    [password] => 
+    [name2] => admin2
+    [email2] => admin2@gmail.com
+    [pass2] => 123
+    [confirm pass] => 
+    [role] => patient
+)
+
+Session: Array
+(
+    [email] => admin2@gmail.com
+    [role] => patient
+    [name] => admin2
+    [loggedin] => 1
+)
+
+Redirecting to patient
+Attempt: admin2@gmail.com
+User found: Array
+(
+    [id] => 13
+    [email] => 
+    [password] => 
+    [name2] => admin2
+    [email2] => admin2@gmail.com
+    [pass2] => 123
+    [confirm pass] => 
+    [role] => patient
+)
+
+Session: Array
+(
+    [email] => admin2@gmail.com
+    [role] => patient
+    [name] => admin2
+    [loggedin] => 1
+)
+
+Redirecting to patient

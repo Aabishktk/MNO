@@ -1,0 +1,224 @@
+/* Common Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+    width: 100%;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #2eb3b6; /* Dark Teal Background */
+    color: #ffffff; /* White Text */
+    padding: 20px;
+    height: 150vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+    .sidebar h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .sidebar ul li {
+            margin-bottom: 15px;
+        }
+
+            .sidebar ul li a {
+                color: #ffffff; /* White Text */
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+                .sidebar ul li a:hover {
+                    text-decoration: underline;
+                }
+
+/* Main Content Styles */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff; /* White Background */
+}
+
+    .main-content .header h1 {
+        color: #004d40; /* Dark Teal Text */
+        margin-bottom: 20px;
+    }
+
+    .main-content .header-buttons button {
+        padding: 10px 20px;
+        background-color: #2eb3b6; /* Dark Teal Background */
+        color: #ffffff; /* White Text */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+        .main-content .header-buttons button:hover {
+            background-color: #00796b; /* Darker Teal on Hover */
+        }
+
+/* Feature Section */
+.feature-section {
+    margin-bottom: 20px;
+}
+
+    .feature-section h3 {
+        color: #004d40; /* Darker Teal Text */
+        margin-bottom: 10px;
+    }
+
+    .feature-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .feature-section ul li {
+            background-color: #e0f2f1; /* Light Teal Background */
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            color: #004d40; /* Darker Teal Text */
+        }
+
+/* Nearby Hospital Section */
+.nearby-hospital-section {
+    margin-bottom: 20px;
+}
+
+    .nearby-hospital-section h3 {
+        color: #004d40; /* Darker Teal Text */
+        margin-bottom: 10px;
+    }
+
+    .nearby-hospital-section button {
+        padding: 10px 20px;
+        background-color: #2eb3b6; /* Dark Teal Background */
+        color: #ffffff; /* White Text */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .nearby-hospital-section button:hover {
+            background-color: #00796b; /* Darker Teal on Hover */
+        }
+
+/* Patient Section */
+.patient-section {
+    margin-bottom: 20px;
+}
+
+    .patient-section h3 {
+        color: #004d40; /* Darker Teal Text */
+        margin-bottom: 10px;
+    }
+
+    .patient-section p {
+        color: #004d40; /* Darker Teal Text */
+    }
+
+/* Schedule Section */
+.schedule-section {
+    margin-bottom: 20px;
+}
+
+    .schedule-section h3 {
+        color: #004d40; /* Darker Teal Text */
+        margin-bottom: 10px;
+    }
+
+    .schedule-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .schedule-section ul li {
+            background-color: #e0f2f1; /* Light Teal Background */
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            color: #004d40; /* Darker Teal Text */
+        }
+
+/* Appointment Section */
+.appointment-section {
+    margin-bottom: 20px;
+}
+
+    .appointment-section h3 {
+        color: #004d40; /* Darker Teal Text */
+        margin-bottom: 10px;
+    }
+
+    .appointment-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .appointment-section ul li {
+            background-color: #e0f2f1; /* Light Teal Background */
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            color: #004d40; /* Darker Teal Text */
+        }
+
+/* Message Section */
+.message-section {
+    margin-bottom: 20px;
+}
+
+    .message-section h3 {
+        color: #004d40; /* Darker Teal Text */
+        margin-bottom: 10px;
+    }
+
+    .message-section p {
+        color: #004d40; /* Darker Teal Text */
+    }
+/* Add this to your existing CSS */
+.error-message {
+    color: #ff0000;
+    background-color: #ffeeee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ffcccc;
+}
+
+.success-message {
+    color: #155724;
+    background-color: #d4edda;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #c3e6cb;
+}
+
+.error-message {
+    color: #721c24;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+}
