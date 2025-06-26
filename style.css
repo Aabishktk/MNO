@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 200px;
+    background: #2eb3b6;
+    height: 100vh;
+    padding: 20px;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.sidebar .active {
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Main Content Styling */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Top Navigation Bar */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.search-bar {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* Form and Schedule Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-container {
+    width: 60%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Form Styling */
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: center; /* Aligns fields properly */
+}
+
+    .form-row div {
+        width: 50%;
+    }
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #7fd0d2;
+    color: white;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.book-btn {
+    background-color: #ffdd57;
+    color: #42c5c8;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pin {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Schedule Section */
+.schedule-container {
+    width: 30%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.schedule-item {
+    display: flex;
+    justify-content: space-between;
+    background: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.schedule-container h3 {
+    margin-bottom: 15px;
+}
+
+.schedule-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Notifications Section */
+.notifications-container {
+    margin: 20px;
+    max-width: 500px;
+}
+
+.notifications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.notification-box {
+    background-color: #ffffff; /* White background */
+    border-left: 5px solid #7fd0d2; /* Green border */
+    padding: 15px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+    .notification-box:hover {
+        transform: scale(1.02);
+    }
+
+    .notification-box p {
+        margin: 0;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .notification-box small {
+        color: #777;
+        font-size: 12px;
+    }
+
+.no-notif {
+    text-align: center;
+    background-color: #ddd;
+    border-left: 5px solid #888;
+}
+
+.notification-box.unread {
+    background-color: #ffeb3b; /* Yellow background for unread notifications */
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+    .notification-box.unread:hover {
+        opacity: 0.8;
+    }
+
+/* Search Bar */
+.search-container {
+    position: relative;
+    width: 700px;
+    max-width: 100%; /* Responsive width */
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px 20px;
+    text-indent: 30px;
+    border: 1px solid #ccc;
+    background-color: #7fd0d2;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+.go-to-dashboard-btn {
+    background-color: green; /* Green color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+    .go-to-dashboard-btn:hover {
+        background-color: darkgreen; /* Dark green on hover */
+    }
